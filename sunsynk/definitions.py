@@ -32,6 +32,8 @@ _SENSORS += (
     Sensor(184, "Battery SOC", "%"),
     Sensor(190, "Battery power", WATT, -1),
     Sensor(191, "Battery current", AMPS, -0.01),
+    Sensor(314, "Battery charge current limit", AMPS, 1),
+    Sensor(315, "Battery discharge current limit", AMPS, 1)
 )
 
 #################
